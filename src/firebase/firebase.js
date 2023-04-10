@@ -1,13 +1,13 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection} from 'firebase/firestore'
+import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: "filmy-4e1c5.firebaseapp.com",
-  projectId: "filmy-4e1c5",
-  storageBucket: "filmy-4e1c5.appspot.com",
-  messagingSenderId: "206563926562",
-  appId: "1:206563926562:web:cb0f036f3426455472e07b"
+  apiKey: "AIzaSyAz0NFCyPBXzH4PFjlTwTk3sNFzYBZHuD4",
+  authDomain: "fimlyverse-2f597.firebaseapp.com",
+  projectId: "fimlyverse-2f597",
+  storageBucket: "fimlyverse-2f597.appspot.com",
+  messagingSenderId: "660116922348",
+  appId: "1:660116922348:web:23756acd8c4fe8db75eac9",
 };
 
 const app = initializeApp(firebaseConfig);

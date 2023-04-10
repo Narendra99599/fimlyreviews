@@ -37,7 +37,7 @@ const Reviews = ({id, prevRating, userRated}) => {
 
             setRating(0);
             setForm("");
-            setNewAdded(newAdded + 1);
+            setNewAdded(prev => prev+1);
             swal({
                 title: "Review Sent",
                 icon: "success",
